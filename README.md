@@ -26,7 +26,6 @@ B1R1
 #according to visual observation of the graph it might have come out the 20/08
 
 B1R4
-
 #Leaves where Thermocouples were placed in the North (channels 13; 14; 17; 18) Side of the canopy
 #Didn't survive leaf removal on 06-13; then TC 17 was rescued on 07/31
 
@@ -72,25 +71,31 @@ B3R1
 
 
 B3R2
-
 #Leaves where Thermocouples were placed in the North (channels 14, 17; 18) Side of the canopy
 #Didn't survive leaf removal on 06-13; 
 
 B3R3
-
 #Leaves where Thermocouples were placed in the North (channels 13, 17; 18) Side of the canopy
 #Didn't survive leaf removal on 06-13; 
 
 
 #TC 12 (Berry) broke 08/10; no need to delete data, when broken output <- NA
 
+#######################
+After running previous script run
+Compiling_all_one_table_2021.R this file will compile all the individual (Met, Anemo and Thermocouple)
+tables in a 15 minute average of all these variables in one single df
+
+
+Other scripts in the repository:
+
+Analysing_WP.R -> script compiling all the individual csv sheets for water potential measurements throughout the season.
+
+Physiological_analysis.R -> scrip compiling all the individual licor files in one single df for analysis.
+
+ET_analysys.R analysis Nico Bambach's wavelet outputs. It also merges ET data with irrigation data yielding the vineyard's water balance of the season. It also compares wavelet outputs with Kyle's outputs from remote sensing.
 
 
 
 
-2)Thermocouples_script_v3.R --> averages thermocouples every 15 min and rough clean 3)IRT_Script --> averages IRT and air tempeerature every 15 min 4)Compiling_All_One_Table.R --> grabs all the 15 min averages and compile them in one single table per timestamp/site
 
-
-
-
-'/content/drive/My Drive/Lodi_Heatwave/Data/Lodi_2021/BordenStations_2021/Outputs_2021/D18/'
